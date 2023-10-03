@@ -1,4 +1,4 @@
-import { IconMap } from '~/components/icon/IconMap';
+import { IconMap } from '~/shared/components/icon/IconMap';
 
 interface IconProps extends React.SVGProps<SVGSVGElement> {
   name: keyof typeof IconMap;

@@ -26,7 +26,7 @@
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["vite.config.ts", ".eslintrc.cjs", "src"],
+  "include": ["vite.config.ts", ".eslintrc.cjs", "tailwind.config.js", "src"],
   "references": [
     {
       "path": "./tsconfig.node.json"

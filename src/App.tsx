@@ -1,11 +1,14 @@
-import { Icon } from './components/icon';
+import { Suspense } from 'react';
+// import { Outlet, ScrollRestoration } from 'react-router-dom';
+import { PageLoading } from './shared';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <Icon name="react" />
-      <p className="text-red-500">Hello World</p>
-    </div>
+    <Suspense fallback={<></>}>
+      {/* <Outlet /> */}
+      <PageLoading />
+      {/* <ScrollRestoration /> */}
+    </Suspense>
   );
 };
 
